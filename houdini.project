@@ -1,0 +1,35 @@
+{
+    "formatVersion": [
+        1, 
+        0
+    ], 
+    "configs": [
+        {
+            "binary": "houdinifx", 
+            "formatVersion": [
+                1, 
+                0
+            ], 
+            "version": [
+                16, 
+                0, 
+                600
+            ], 
+            "name": "workBitch", 
+            "env": [
+                [
+                    "JOB", 
+                    "[PWD]"
+                ], 
+                [
+                    "HOUDINI_VEX_PATH", 
+                    "[PWD]/vex;&"
+                ], 
+                [
+                    "HOUDINI_OTLSCAN_PATH", 
+                    "[PWD]/otls;&"
+                ]
+            ]
+        }
+    ]
+}
