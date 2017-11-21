@@ -32,4 +32,7 @@ Use the display node to change solver type
  
 ## How to launch
 * use the python launcher script provided, it's supposed to cover both windows and linux/mac cases
-* or just manually set HSITE to the project's root if you are using your ways of starting houdini
+* use chLauncher to launch - there is a preconfigured project supplied
+* or just manually set following env variables if you are using your ways of starting houdini
+	* HOUDINI_OTLSCAN_PATH = "<project's root>/otls:&"
+	* HOUDINI_VEX_PATH = "<project's root>/vex:&"
